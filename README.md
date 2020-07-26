@@ -29,3 +29,20 @@ You'll see planets list next
 Use any item from list to check individual page with planet info
 
 ![Alt text](./src/assets/screenshots/list.png "Planet info")
+
+
+### Known issues 
+
+Backend API responds with incorect data 
+
+Request examples: 
+
+[Tatooine](https://private-anon-290d969049-starhub.apiary-mock.com/api/planets/Tatooine)
+
+![Alt text](./src/assets/screenshots/req1.png "Tatooine")
+
+[Tatooine](https://private-anon-290d969049-starhub.apiary-mock.com/api/planets/Kamino)
+
+![Alt text](./src/assets/screenshots/req2.png "Kamino")
+
+All requests have responses with Kashyyyk data

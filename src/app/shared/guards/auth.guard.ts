@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { CanDeactivate, ActivatedRouteSnapshot, RouterStateSnapshot } from '@angular/router';
+import { CanDeactivate } from '@angular/router';
 
 
 export interface CanComponentDeactivate {
@@ -9,9 +9,7 @@ export interface CanComponentDeactivate {
 @Injectable()
 export class AuthGuard implements CanDeactivate<CanComponentDeactivate> {
   canDeactivate(
-    component: CanComponentDeactivate,
-    next: ActivatedRouteSnapshot,
-    state: RouterStateSnapshot): boolean {
+    component: CanComponentDeactivate): boolean {
 
     if (component.confirm()) {
       return true;

@@ -3,7 +3,6 @@ import { ActivatedRoute } from '@angular/router';
 import { Observable, Subscription } from 'rxjs';
 import { PlanetData } from 'src/app/shared/models/planets.model';
 import { PlanetsService } from 'src/app/shared/services/planets.service';
-import { ThrowStmt } from '@angular/compiler';
 
 
 @Component({
