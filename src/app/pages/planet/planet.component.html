@@ -1,0 +1,14 @@
+<app-header [header]="planetName"></app-header>
+
+<mat-card *ngIf="!isLoading" class="planet-card">
+  <img mat-card-image [src]="planetData?.image" alt="planetName">
+  <mat-card-content>
+    <p class="planet-info"><span>Region: </span>{{ planetData?.region }}</p>
+    <p class="planet-info"><span>System: </span>{{ planetData?.system }}</p>
+    <p class="planet-info"><span>Description: </span>{{ planetData?.description }}</p>
+  </mat-card-content>
+</mat-card>
+
+<div class="spinner-overlay" *ngIf="isLoading">
+  <mat-spinner [color]="'primary'"></mat-spinner>
+</div>

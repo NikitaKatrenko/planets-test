@@ -1,0 +1,19 @@
+.email-form {
+  margin: 30px 30px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.form-element {
+  display: flex;
+  align-self: flex-end;
+
+  button {
+    margin-top: 15px;
+    align-self: end;
+  }
+}
