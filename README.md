@@ -41,7 +41,7 @@ Request examples:
 
 ![Alt text](./src/assets/screenshots/req1.png "Tatooine")
 
-[Tatooine](https://private-anon-290d969049-starhub.apiary-mock.com/api/planets/Kamino)
+[Kamino](https://private-anon-290d969049-starhub.apiary-mock.com/api/planets/Kamino)
 
 ![Alt text](./src/assets/screenshots/req2.png "Kamino")
 
