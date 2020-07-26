@@ -1,0 +1,6 @@
+<app-header [header]="headerText"></app-header>
+<app-table [dataSource]="planets$ | async"></app-table>
+
+<div class="spinner-overlay" *ngIf="!(planets$ | async)">
+    <mat-spinner [color]="'primary'"></mat-spinner>
+</div>

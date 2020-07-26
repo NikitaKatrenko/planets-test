@@ -1,0 +1,32 @@
+.planet-card {
+  display: flex;
+  flex-direction: row;
+}
+
+.mat-card-image {
+  &:first-child {
+    margin: 0 16px 0 0;
+    object-fit: contain;
+  }
+}
+
+.planet-info {
+  text-align: justify;
+
+  span {
+    font-weight: bold;
+  }
+}
+
+.spinner-overlay {
+  position: absolute;
+  background: transparent;
+  top: 64px;
+  z-index: 1;
+  width: 100%;
+}
+
+.mat-spinner {
+  margin: 0 auto;
+  top: 20vh;
+}

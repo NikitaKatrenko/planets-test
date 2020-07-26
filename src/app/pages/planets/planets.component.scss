@@ -1,0 +1,12 @@
+.spinner-overlay {
+  position: absolute;
+  background: transparent;
+  top: 64px;
+  z-index: 1;
+  width: 100%;
+}
+
+.mat-spinner {
+  margin: 0 auto;
+  top: 20vh;
+}
