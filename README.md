@@ -28,8 +28,7 @@ You'll see planets list next
 
 Use any item from list to check individual page with planet info
 
-![Alt text](./src/assets/screenshots/list.png "Planet info")
-
+![Alt text](./src/assets/screenshots/item.png "Planet info")
 
 ### Known issues 
 
