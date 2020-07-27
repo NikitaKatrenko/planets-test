@@ -6,7 +6,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PlanetsComponent } from './pages/planets/planets.component';
 import { PlanetComponent } from './pages/planet/planet.component';
 import { AuthComponent } from './pages/auth/auth.component';
-import { AuthFormComponent } from './components/auth-form/auth-form.component';
 import { HeaderComponent } from './components/header/header.component';
 import { TableComponent } from './components/table/table.component';
 import { CustomMaterialModule } from './shared/modules/material-module';
@@ -22,7 +21,6 @@ import { HttpClientModule } from '@angular/common/http';
     PlanetsComponent,
     PlanetComponent,
     AuthComponent,
-    AuthFormComponent,
     HeaderComponent,
     TableComponent
   ],
